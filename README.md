@@ -10,6 +10,7 @@ Table of contents
     * [Create project folder](#create-project-folder)
     * [Create `bower.json` file](#create-bower.json-file)
     * [Install Polymer](#install-polymer)
+  * [Install `paper-dialog`](#install-paper-dialog)
     
     
     Create `bower.json` file
@@ -76,6 +77,9 @@ bower init
 bower install --save Polymer/polymer
 ```
 
+## Install `paper-dialog`
 
-
+```console
+bower install --save PolymerElements/paper-dialog
+```
 
