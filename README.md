@@ -11,6 +11,7 @@ Table of contents
     * [Create `bower.json` file](#create-bower.json-file)
     * [Install Polymer](#install-polymer)
   * [Install `paper-dialog`](#install-paper-dialog)
+  * [Set up a web server](#set-up-a-web-server)
     
     
     Create `bower.json` file
@@ -77,9 +78,40 @@ bower init
 bower install --save Polymer/polymer
 ```
 
-## Install `paper-dialog`
+## Install `paper-elements`
+
+**Paper Elements** are **Material Desing** elements.
 
 ```console
-bower install --save PolymerElements/paper-dialog
+bower install polymerelements/paper-elements
 ```
+
+### Set up a web server
+
+```console
+python -m SimpleHTTPServer 8080
+```
+
+### Create `index.html`
+
+Create `index.html` file with this content:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World with Polymer</title>
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="bower_components/paper-button/paper-button.html">
+</head>
+<body>
+  <paper-button raised> Hello World! </paper-button>
+</body>
+</html>
+```
+
+
+
+
 
