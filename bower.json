@@ -1,0 +1,23 @@
+{
+  "name": "PolymerHello",
+  "authors": [
+    "Luis José Sánchez <luisjoseprofe@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "paper-dialog": "PolymerElements/paper-dialog#^1.0.4",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7"
+  }
+}

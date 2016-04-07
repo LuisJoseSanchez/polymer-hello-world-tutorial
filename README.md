@@ -12,9 +12,9 @@ Table of contents
     * [Install Polymer](#install-polymer)
   * [Install `paper-dialog`](#install-paper-dialog)
   * [Set up a web server](#set-up-a-web-server)
+  * [Create `index.html`](#create-index.html)
     
     
-    Create `bower.json` file
 
 ## Polymer installation
 
@@ -86,13 +86,13 @@ bower install --save Polymer/polymer
 bower install polymerelements/paper-elements
 ```
 
-### Set up a web server
+## Set up a web server
 
 ```console
 python -m SimpleHTTPServer 8080
 ```
 
-### Create `index.html`
+## Create `index.html`
 
 Create `index.html` file with this content:
 
@@ -111,7 +111,11 @@ Create `index.html` file with this content:
 </html>
 ```
 
+## Test the page
 
+Go to <http://localhost:8080/>
+
+![Hello World page](images/polymerhello.png)
 
 
 
