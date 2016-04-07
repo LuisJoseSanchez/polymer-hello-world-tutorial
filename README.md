@@ -115,7 +115,7 @@ Create `index.html` file with this content:
 
 Go to <http://localhost:8080/>
 
-![Hello World page](images/polymerhello.png)
+![Hello World page](images/polymerhello2.png)
 
 
 
