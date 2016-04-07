@@ -8,6 +8,11 @@ Table of contents
     * [Update `npm`](#update-npm)
     * [Install Bower](#install-bower)
     * [Create project folder](#create-project-folder)
+    * [Create `bower.json` file](#create-bower.json-file)
+    * [Install Polymer](#install-polymer)
+    
+    
+    Create `bower.json` file
 
 ## Polymer installation
 
@@ -56,16 +61,21 @@ bower -v
 
 ```console
 mkdir PolymerHello
-cd Polymer
+cd PolymerHello
 ```
 
+### Create `bower.json` file
 
+```console
+bower init
+```
 
-%%### Go to your site!
+### Install Polymer
 
-%%¡Congratulations! You have your Drupal 8 site installed in <http://localhost/mydrupal8/>.
+```console
+bower install --save Polymer/polymer
+```
 
-%%![Go to your site](images/polymerhello.png)
 
 
 
