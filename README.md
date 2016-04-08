@@ -10,7 +10,7 @@ Table of contents
     * [Create project folder](#create-project-folder)
     * [Create `bower.json` file](#create-bower.json-file)
     * [Install Polymer](#install-polymer)
-  * [Install `paper-dialog`](#install-paper-dialog)
+  * [Install `paper-button`](#install-paper-button)
   * [Set up a web server](#set-up-a-web-server)
   * [Create `index.html`](#create-index.html)
     
@@ -78,12 +78,12 @@ bower init
 bower install --save Polymer/polymer
 ```
 
-## Install `paper-elements`
+## Install `paper-button`
 
 **Paper Elements** are **Material Desing** elements.
 
 ```console
-bower install polymerelements/paper-elements
+bower install --save PolymerElements/paper-button
 ```
 
 ## Set up a web server
