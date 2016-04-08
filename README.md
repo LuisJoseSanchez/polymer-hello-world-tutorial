@@ -80,7 +80,7 @@ bower install --save Polymer/polymer
 
 ## Install `paper-button`
 
-**Paper Elements** are **Material Desing** elements.
+The element `paper-button` is part of **Paper Elements** (Material Design).
 
 ```console
 bower install --save PolymerElements/paper-button
